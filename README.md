@@ -3,6 +3,7 @@
 ## Objectives
 
 As a developper, i need :
+
 * a simple java application server
 * an easy to run command
 * a Java 8 jvm
