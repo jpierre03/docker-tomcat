@@ -1,10 +1,14 @@
 # docker-tomcat
 
-## Sources
+## Objectives
 
-* [Docker Tomcat 8, official image documentation](https://github.com/docker-library/docs/tree/master/tomcat)
-* [Docker Tomcat 8, official image](https://registry.hub.docker.com/_/tomcat/)
-* [script are based on tutumcloud's github](https://github.com/tutumcloud/tutum-docker-tomcat)
+As a developper, i need :
+* a simple java application server
+* an easy to run command
+* a Java 8 jvm
+* a developpement environement
+
+Warning : This container is not build for production. This container is provided "as is".
 
 ## How to use it ?
 
@@ -22,3 +26,9 @@ Tomcat embedded manages is available [http://127.0.0.1:8080/manager/](http://127
 ## How to deploy an app ?
 
 Use the manager and upload your `.war` file.
+
+## Sources
+
+* [Docker Tomcat 8, official image documentation](https://github.com/docker-library/docs/tree/master/tomcat)
+* [Docker Tomcat 8, official image](https://registry.hub.docker.com/_/tomcat/)
+* [script are based on tutumcloud's github](https://github.com/tutumcloud/tutum-docker-tomcat)
